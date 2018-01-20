@@ -5,6 +5,8 @@ $(document).ready(function(){
   var spiner = false;
   var rand = function (r){return Math.floor(Math.random()*r);}
 
+  // Shuffle Array
+  // https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
   function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
 
