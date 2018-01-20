@@ -1,6 +1,13 @@
 $(document).ready(function(){
-  //Set the UL height to 70% of the window
-  $('ul').height(window.innerHeight*0.62)
+  if (window.innerHeight> window.innerWidth){
+    //Set the UL height to 56% of the window if its mobile
+    $('ul').height(window.innerHeight*0.56)
+  }
+  else {
+    //Set the UL height to 62% of the window
+    $('ul').height(window.innerHeight*0.62)
+  }
+
 
   var spiner = false;
   var rand = function (r){return Math.floor(Math.random()*r);}
