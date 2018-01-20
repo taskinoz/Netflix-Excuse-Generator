@@ -1,6 +1,6 @@
 $(document).ready(function(){
   //Set the UL height to 70% of the window
-  $('ul').height(window.innerHeight*0.7)
+  $('ul').height(window.innerHeight*0.65)
 
   var spiner = false;
   var rand = function (r){return Math.floor(Math.random()*r);}
