@@ -1,0 +1,72 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  background: #221f1f;
+}
+
+header{
+  text-align: center;
+  background: #e50914;
+  padding-bottom: 40px;
+  box-shadow: 0px 20px 20px 20px rgba(0,0,0,0.3);
+}
+header h1{
+  padding: 20px;
+  margin: 0;
+  background: #F3F3F3;
+  box-shadow: 0px 2px 20px 4px;
+  font-weight: 700;
+}
+
+.arrows .arrow{
+  height: 50px;
+  width: auto;
+  position: fixed;
+  top: 50%;
+}
+.right{
+  position: fixed;
+  right: 0px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.excuses ul{
+  position: relative;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 5%;
+  height: 500px;
+  overflow-y: hidden;
+}
+.excuses ul li{
+  position: relative;
+  background: #F3F3F3;
+  padding: 20px 10px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px 1px;
+  font-size: 20px;
+}
+.spin{
+  text-align: center;
+  margin: 20px 0;
+}
+.spin button{
+  background: #e50914;
+  border: 0;
+  color: #fff;
+  font-size: 24px;
+  padding: 14px 80px;
+  text-transform: uppercase;
+  box-shadow: 0 2px 10px 2px rgba(0,0,0,0.4);
+  transition: 0.3s;
+}
+.spin button:hover{
+  background: #fff;
+  color: #e50914;
+}
+.spin button:active{
+  transform: translateY(5px);
+}
